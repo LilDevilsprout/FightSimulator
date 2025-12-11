@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Paramétrage et liens ressources (Fonts, CSS)-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> <!-- Font Noto -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <!-- Contenu de la page-->
+         <div class="cards">
+            <img id="c1" src="Images/baby.jpg" alt="Bébé">
+            <img id="c2" src="Images/cat.jpg" alt="Chat">
+         </div>
+         <div>
+         <h2 id="txt"> Simulateur de combat </h2>
+         </div>
+         <div class="cards">
+            <button onclick="start(baby, angryCat)"> Démarrer le combat </button>
+            <button onclick="playRound(baby, angryCat)"> Tour combattant </button>
+            <button onclick="result(baby, angryCat)"> Finir le combat </button>
+            <button onclick="reset(baby, angryCat)"> RESET </button>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Bandeau du site en bas-->
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
